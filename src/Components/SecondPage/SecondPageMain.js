@@ -5,7 +5,7 @@ import "../../StyleSheets/SecondPageMain.css";
 class SecondPageMain extends Component {
     render() {
         return (
-            <div>
+            <div className="Second-Page-Main">
                 <ResturauntResult />
             </div>
         );

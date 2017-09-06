@@ -1,0 +1,44 @@
+.SR-overlay {
+    text-align: center;
+}
+.SR-header-overlay {
+    margin-top: 5vw;
+}
+.SR-header-text {
+    margin-bottom: 2.5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border-bottom: 2px solid #0c4d75;
+    color: #0c4d75;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 12vw;
+}
+.SR-middle {
+    display: flex;
+}
+.row {
+    width: 100%;
+}
+.SR-choice {
+    margin-top: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: #1693e0;
+    color: rgb(255, 255, 255);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-size: 6vw;
+}
+
+/*.SR-overlay {
+}
+.SR-header-overlay {
+}
+.SR-header-text {
+}
+.SR-middle {
+}
+.SR-choice {
+}*/

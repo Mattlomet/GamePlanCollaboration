@@ -1,0 +1,13 @@
+.NextPage-overlay {
+    margin-top: 8vw;
+    text-align: center;
+}
+.NextPage-button {
+    display: inline;
+    padding: 2vw;
+    border: 1px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 10vh;
+    width: auto;
+    color: white;
+}
