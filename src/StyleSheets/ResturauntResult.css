@@ -1,0 +1,63 @@
+.RR-header {
+    margin-bottom: 2.5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom: 2px solid #0c4d75;
+    color: #0c4d75;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 8.5vw;
+}
+.RR-choice {
+    padding: 3vw;
+    width: 90%;
+    margin: 1vw;
+    display: inline-grid;
+    border: 1px solid rgb(212, 212, 212);
+    background-color: rgba(22, 147, 224, 0.7);
+    color: rgb(255, 255, 255);
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+.R-picture {
+    border: 2px solid white;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.R-title {
+    margin-bottom: 2.5vw;
+    font-size: 5.5vw;
+    border-bottom: 2px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.R-descrip {
+    font-size: 4vw;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    margin-bottom: 2.5vw;
+}
+.R-price {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-color: #1a9633;
+    display: inline;
+    width: 25%;
+    padding: 1vw;
+    margin: 1vw;
+    border: 2px solid white;
+}
+.R-location {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-color: #2c91fa;
+    display: inline;
+    width: 25%;
+    padding: 1vw;
+    margin: 1vw;
+    border: 2px solid white;
+}
+.R-theme {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-color: #1a9633;
+    display: inline;
+    width: 25%;
+    padding: 1vw;
+    margin: 1vw;
+    border: 2px solid white;
+}

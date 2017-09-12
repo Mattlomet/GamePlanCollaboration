@@ -11,6 +11,7 @@ class NextPage extends Component {
         return (
             <div className="NextPage-overlay">
                 <img
+                    alt="rightarrow"
                     src={RightArrow}
                     className="NextPage-button"
                     onClick={this.props.nextPage}

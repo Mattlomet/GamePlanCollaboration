@@ -3,8 +3,7 @@ import Note from "./Note";
 import SpecialRequests from "./SpecialRequests";
 import NextPage from "./NextPage";
 import "../../StyleSheets/FirstPageMain.css";
-import gameplanLogo from "../../gameplanlogo.svg";
-import dropDown from "../../menu.png";
+import Headerbar from "../Headerbar";
 
 class FirstPageMain extends Component {
     constructor(props) {
@@ -14,24 +13,7 @@ class FirstPageMain extends Component {
     render() {
         return (
             <div className="First-Page-Main">
-                <div className="First-Page-Top-Bar">
-                    <div className="First-Page-logo">
-                        <a href="https://app.getgameplan.com/">
-                            <img
-                                className="logo"
-                                src={gameplanLogo}
-                                alt="gameplanlogo"
-                            />
-                        </a>
-                    </div>
-                    <div className="First-Page-Drop">
-                        <img
-                            className="dropDownMenu"
-                            src={dropDown}
-                            alt="dropdownmenu"
-                        />
-                    </div>
-                </div>
+                <Headerbar />
                 <div className="Special-Requests-Comp">
                     <SpecialRequests />
                 </div>
