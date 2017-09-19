@@ -42,10 +42,26 @@ class SpecialRequest extends Component {
         );
     }
     pickedTag(event) {
-        event.target.className = "chosen-Tag";
-        this.setState({
-            chosenTag: this.state.chosenTag.concat(event.target.id)
-        });
+        if (event.target.className === "SR-choice") {
+            this.setState({
+                chosenTag: this.state.chosenTag.concat(event.target.id)
+            });
+            event.target.className = "chosen-Tag";
+        } else if (event.target.className === "chosen-Tag") {
+            event.target.className = "SR-choice";
+
+            var a = this.state.chosenTag;
+            var indexOfTag = a.indexOf(event.target.id);
+            a.splice(indexOfTag, 1);
+            var b = a;
+
+            console.log(a);
+            console.log(b);
+            console.log(a.splice(indexOfTag, 1));
+            this.setState({
+                chosenTag: b
+            });
+        }
     }
     componentDidMount() {
         axios
